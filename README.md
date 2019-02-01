@@ -1,7 +1,7 @@
 # simple-docker-minecraft
 > Start Minecraft server from dockerized Java
 
-![](https://img.shields.io/docker/pulls/mamoruio/simple-docker-minecraft.svg?style=flat-square)  
+[![](https://img.shields.io/docker/pulls/mamoruio/simple-docker-minecraft.svg?style=flat-square)](https://hub.docker.com/r/mamoruio/simple-docker-minecraft)  
 This image provides a Minecraft server with server files (support forge
 ## usage
 ### before start
