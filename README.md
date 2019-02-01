@@ -1,5 +1,8 @@
 # simple-docker-minecraft
-A image for build minecraft server with server file (support forge
+> Start Minecraft server from dockerized Java
+
+![](https://img.shields.io/docker/pulls/mamoruio/simple-docker-minecraft.svg?style=flat-square)  
+This image provides a Minecraft server with server files (support forge
 ## usage
 ### before start
 - You need to prepare your server side files like `server.jar` or `forge-1.12.2-14.23.5.2808-universal.jar`
@@ -44,7 +47,7 @@ docker run -it --rm --name minecraft-server \
     mamoruio/simple-docker-minecraft
 ```
 
-specific JVM ram usage
+specify JVM's ram usage
 ```shell
 docker run -it --rm --name minecraft-server \
     -v /minecraft/server/dir:/app \
